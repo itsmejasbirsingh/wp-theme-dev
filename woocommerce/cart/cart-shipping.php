@@ -44,7 +44,7 @@ $calculator_text          = '';
 				<?php endforeach; ?>
 			</ul>
 			<?php if ( is_cart() ) : ?>
-				<p class="woocommerce-shipping-destination">
+				<!-- <p class="woocommerce-shipping-destination">
 					<?php
 					if ( $formatted_destination ) {
 						// Translators: $s shipping destination.
@@ -54,7 +54,7 @@ $calculator_text          = '';
 						echo esc_html__( 'This is only an estimate. Prices will be updated during checkout.', 'woocommerce' );
 					}
 					?>
-				</p>
+				</p> -->
 			<?php endif; ?>
 		<?php
 		elseif ( ! $has_calculated_shipping || ! $formatted_destination ) :

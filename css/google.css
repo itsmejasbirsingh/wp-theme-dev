@@ -1,3 +1,18 @@
 .footer-back{
 	color: #fff;
 }
+
+.cart_totals
+{
+	float: none !important;
+}
+.my_cart_total
+{
+	display: none !important;
+}
+li.product.type-product
+{
+	border: 1px solid #ccc  !important;
+    padding: 10px !important;
+    border-radius: 10px !important;
+}
