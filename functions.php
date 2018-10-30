@@ -29,3 +29,12 @@ add_theme_support('post-thumbnails'); // adds facility to adding feature image i
 //add_theme_support('post-formats', array('aside','image','video','gallery','link','quote','status','audio','chat'));  adds facility to adding post formats
 
 add_theme_support('post-formats', array('aside','image','video'));
+
+
+function action_woocommerce_update_product( $product_id ) { 
+    echo "product updated".$product_id;
+    die;
+}; 
+         
+
+//add_action( 'woocommerce_update_product', 'action_woocommerce_update_product', 10, 1 );
